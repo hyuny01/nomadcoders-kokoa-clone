@@ -24,7 +24,7 @@
 }
 
 .notice-viewport-big img{
-  width: 70%;
+  width: 40%;
   height: auto;
 }
 
@@ -46,7 +46,7 @@
   position: absolute;
   bottom: -20px;
   padding: 1rem;
-  width: 70%;
+  width: 40%;
   background-color: var(--color-pink);
   font-size: 1.2em;
 }
