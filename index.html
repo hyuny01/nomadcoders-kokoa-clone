@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Welcome</title>
+</head>
+<body>
+  <div class="status-bar">
+    <time>07:30</time>
+    <div class="status-bar__icons">
+      <i class="icon-bar-chart" data-feather="bar-chart"></i>
+      <i class="icon-wifi" data-feather="wifi"></i>
+      <i class="icon-battery" data-feather="battery-charging"></i>
+    </div>
+  </div>
+  <main class="login">
+    <header class="login-header">
+      <h1 class="login-header__title">
+        Welcome to</br>
+        ZIZIONE
+      </h1>
+      <p class="login-header__text">
+        My favorite illustration character<br>
+        Zizi • Pingo • Bread18
+      </p>
+    </header>
+    <form class="login-form" action="friends.html" method="get">
+      <input name="text" type="text" placeholder="Email or phone number" required>
+      <input name="password" type="password" placeholder="Password" required>
+      <input type="submit" value="Login">
+      <a href="#">Find ZIZIONE Account or Password</a>
+    </form>
+    <div class="sign-up">
+      <a class="btn-link" href="https://www.instagram.com/zizone.official/" target="_blank">Sign up</a>
+    </div>
+  </main>
+    <div class="notice-viewport-small">
+      <img src="/images/viewport-small.jpg">
+      <p>Please increase <br> the browser size </p>
+    </div>
+    <div class="notice-viewport-big">
+        <div class="position-relative">
+          <img src="/images/viewport-big.jpg">
+          <p>please reduce <br> the browser size </p>
+        </div>
+    </div>
+  <script src="https://unpkg.com/feather-icons"></script>
+  <script>
+    feather.replace()
+  </script>
+</body>
+</html>

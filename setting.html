@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Setting</title>
+</head>
+<body>
+  <div class="fixed-top">
+    <div class="status-bar">
+      <time>07:30</time>
+      <div class="status-bar__icons">
+        <i class="icon-bar-chart" data-feather="bar-chart"></i>
+        <i class="icon-wifi" data-feather="wifi"></i>
+        <div class="charge">
+          <div class="charge__bar"></div>
+          <i class="icon-battery" data-feather="battery-charging"></i>
+        </div>
+      </div>
+    </div>
+    <header class="navigation-bar">
+      <div>
+        <a href="friends.html">
+          <i class="icon-chevron-left" data-feather="chevron-left"></i>
+        </a>
+      </div>
+      <div>
+        <h1 class="navigation__title">Settings</h1>
+      </div>
+      <div>
+        <i class="icon-search" data-feather="search"></i>
+      </div>
+    </header>
+  </div>
+  <main class="box-common box-setting">
+    <div>
+      <ul class="setting__list">
+        <li class="setting__item">
+          <div class="setting__title">
+            <i class="icon-lock" data-feather="lock"></i>
+            <p>privacy</p>
+          </div>
+        </li>
+        <li class="setting__item">
+          <div class="setting__title">
+            <i class="icon-shopping-bag" data-feather="shopping-bag"></i>
+            <p>shopping</p>
+          </div>
+        </li>
+        <li class="setting__item">
+          <div class="setting__title">
+            <i class="icon-info" data-feather="info"></i>
+            <p>version</p>
+          </div>
+          <span>Lastest Version</span>
+        </li>
+      </ul>
+    </div>
+    <!-- My data -->
+    <div>
+      <h2 class="divid__title--sm">My data</h2>
+      <ul class="setting__list">
+        <li class="setting__item">
+          <div class="setting__title">
+            <i class="icon-file-text" data-feather="file-text"></i>
+            <p>file text</p>
+          </div>
+        </li>
+        <li class="setting__item">
+          <div class="setting__title">
+            <i class="icon-image" data-feather="image"></i>
+            <p>photo</p>
+          </div>
+        </li>
+        <li class="setting__item">
+          <div class="setting__title">
+            <i class="icon-video" data-feather="video"></i>
+            <p>video</p>
+          </div>
+        </li>
+        <li class="setting__item">
+          <div class="setting__title">
+            <i class="icon-trash-2" data-feather="trash-2"></i>
+            <p>delete</p>
+          </div>
+          <!-- <span>Lastest Version</span> -->
+        </li>
+      </ul>
+    </div>
+    <!-- Connect your account -->
+    <div>
+      <h2 class="divid__title--sm">Connect your account</h2>
+      <ul class="setting__list">
+        <li class="setting__item">
+          <div class="setting__title">
+            <i class="icon-youtube" data-feather="youtube"></i>
+            <p>youtube</p>
+          </div>
+        </li>
+        <li class="setting__item">
+          <div class="setting__title">
+            <i class="icon-instagram" data-feather="instagram"></i>
+            <p>instagram</p>
+          </div>
+        </li>
+        <li class="setting__item">
+          <div class="setting__title">
+            <i class="icon-github" data-feather="github"></i>
+            <p>github</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!-- logout -->
+    <div>
+      <ul class="setting__list">
+        <li class="setting__item">
+          <a href="index.html" class="space-between">
+            <div class="setting__title">
+              <i class="icon-yunlock" data-feather="unlock"></i>
+              <p>logout</p>
+            </div>
+            <span>Go to index.html</span>            
+          </a>
+        </li>
+      </ul>
+    </div>
+  </main>
+  <nav class="appbar-bottom">
+    <a href="friends.html">
+      <i class="icon-user" data-feather="user"></i>
+    </a>
+    <a href="chats.html">
+      <i class="icon-chat" data-feather="message-circle"></i>
+    </a>
+    <a href="find.html">
+      <i class="icon-search" data-feather="search"></i>
+    </a>
+    <a href="more.html">
+      <i class="icon-more" data-feather="more-horizontal"></i>
+    </a>
+  </nav>
+  <div class="notice-viewport-small">
+    <img src="/images/viewport-small.jpg">
+    <p>Please increase <br> the browser size </p>
+  </div>
+  <div class="notice-viewport-big">
+      <div class="position-relative">
+        <img src="/images/viewport-big.jpg">
+        <p>please reduce <br> the browser size </p>
+      </div>
+  </div>
+  <script src="https://unpkg.com/feather-icons"></script>
+  <script>
+    feather.replace()
+  </script>
+</body>
+</html>

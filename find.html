@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Find</title>
+</head>
+<body>
+  <div class="fixed-top">
+    <div class="status-bar">
+      <time>07:30</time>
+      <div class="status-bar__icons">
+        <i class="icon-bar-chart" data-feather="bar-chart"></i>
+        <i class="icon-wifi" data-feather="wifi"></i>
+        <div class="charge">
+          <div class="charge__bar"></div>
+          <i class="icon-battery" data-feather="battery-charging"></i>
+        </div>
+      </div>
+    </div>
+    <header class="display-header">
+      <h1 class="display-header__title">Find</h1>
+      <div class="display-header__icons">
+        <i class="icon-music" data-feather="music"></i>
+        <a href="setting.html">
+          <i class="icon-settings" data-feather="settings"></i>
+        </a>
+      </div>
+    </header>
+  </div>
+  <main class="box-common box-find">
+    <ul class="btn-icons">
+      <li class="btn-icons__item">
+        <i class="icon-calendar" data-feather="calendar"></i>
+        <span>Calendar</span>
+      </li>
+      <li class="btn-icons__item">
+        <i class="icon-heart" data-feather="heart"></i>
+        <span>click!</span>
+      </li>
+      <li class="btn-icons__item">
+        <i class="icon-headphones" data-feather="headphones"></i>
+        <span>Inquiry</span>
+      </li>
+      <li class="btn-icons__item">
+        <i class="icon-mail" data-feather="mail"></i>
+        <span>Invite</span>
+      </li>
+    </ul>
+    <article class="recommended">
+      <h2 class="divide__title">Recommended Friends</h2>
+      <p class="empty">
+        You have no <br>
+        recommended friends
+      </p>
+    </article>
+    <article class="open-chat">
+      <div class="divide">
+        <h2 class="divide__title">Open Chat</h2>
+        <div class="divide__btn">
+          <span>Go to Open Chat Home</span>
+          <i class="icon-chevron-right" data-feather="chevron-right"></i>
+        </div>
+      </div>
+      <ul class="open-chat__list">
+        <li class="open-chat__item">
+          <a class="open-chat__link" href="https://www.instagram.com/p/CaZVym-voFE/?utm_source=ig_web_copy_link" target="_blank">
+            <div class="open-chat__info">
+              <h3 class="title">zizone.official</h3>
+              <p class="text-long">
+                Watermelon flavored PINGO chewing gum VS PINGO flavored watermelon chewing gum What's your choice?
+              </p>
+              <div class="open-chat__captain">
+                <img src="/images/captain-01.jpg" alt="">
+                <div class="open-chat__desc">
+                  <span class="members">53.7 members</span>
+                  <strong>Active</strong>
+                </div>
+              </div>
+            </div>
+            <img class="opne-chat__thumb" src="/images/oepn-chat-01.jpg" alt="">
+          </a>
+        </li>
+        <li class="open-chat__item">
+          <a class="open-chat__link" href="https://www.instagram.com/p/CYtl2ADvTW7/?utm_source=ig_web_copy_link" target="_blank">
+            <div class="open-chat__info">
+              <h3 class="title">BREAD 18 the bird</h3>
+              <p class="text-long">
+                Breakfast for office worker Zizi
+              </p>
+              <div class="open-chat__captain">
+                <img src="/images/captain-02.jpg" alt="">
+                <div class="open-chat__desc">
+                  <span class="members">53.7 members</span>
+                  <strong>Active</strong>
+                </div>
+              </div>
+            </div>
+            <img class="opne-chat__thumb" src="/images/oepn-chat-02.jpg" alt="">
+          </a>
+        </li>
+      </ul>
+    </article>
+  </main>
+  <nav class="appbar-bottom">
+    <a href="friends.html">
+      <i class="icon-user" data-feather="user"></i>
+    </a>
+    <a href="chats.html" class="position-relative">
+      <div class="badge">1</div>
+      <i class="icon-chat" data-feather="message-circle"></i>
+    </a>
+    <a href="find.html">
+      <i class="icon-search is-active" data-feather="search"></i>
+    </a>
+    <a href="more.html">
+      <i class="icon-more" data-feather="more-horizontal"></i>
+    </a>
+  </nav>
+  <div class="notice-viewport-small">
+    <img src="/images/viewport-small.jpg">
+    <p>Please increase <br> the browser size </p>
+  </div>
+  <div class="notice-viewport-big">
+      <div class="position-relative">
+        <img src="/images/viewport-big.jpg">
+        <p>please reduce <br> the browser size </p>
+      </div>
+  </div>
+  <script src="https://unpkg.com/feather-icons"></script>
+  <script>
+    feather.replace()
+  </script>
+</body>
+</html>

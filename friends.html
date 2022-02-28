@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Friends</title>
+</head>
+<body>
+  <div class="fixed-top">
+    <div class="status-bar">
+      <time>07:30</time>
+      <div class="status-bar__icons">
+        <i class="icon-bar-chart" data-feather="bar-chart"></i>
+        <i class="icon-wifi" data-feather="wifi"></i>
+        <div class="charge">
+          <div class="charge__bar"></div>
+          <i class="icon-battery" data-feather="battery-charging"></i>
+        </div>
+      </div>
+    </div>
+    <header class="display-header">
+      <h1 class="display-header__title">Friends</h1>
+      <div class="display-header__icons">
+        <i class="icon-user-plus" data-feather="user-plus"></i>
+        <i class="icon-music" data-feather="music"></i>
+        <div class="position-relative">
+          <div class="notice-circle"></div>
+          <a href="setting.html">
+            <i class="icon-settings" data-feather="settings"></i>
+          </a>
+        </div>
+      </div>
+    </header>
+  </div>
+  <main class="box-common box-friends">
+    <div class="user-card oneself">
+      <div class="user-card__data item-center">
+        <img src="/images/user-01.jpg" alt=""/>
+        <div>
+          <h2 class="user-card__name">zizi</h2>
+        </div>
+      </div>
+    </div>
+    <div class="friends__content">
+      <h2 class="divid__title--sm">Friends</h2>
+      <ul class="friends__list">
+        <li class="friends__item">
+          <a href="chats.html">
+            <div class="user-card">
+              <div class="user-card__data item-center">
+                <img src="/images/user-02.jpg" alt=""/>
+                <div>
+                  <h2 class="user-card__name">bread18</h2>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="friends__item">
+          <a href="/chats.html">
+            <div class="user-card">
+              <div class="user-card__data item-center">
+                <img src="/images/user-03.jpg" alt=""/>
+                <div>
+                  <h2 class="user-card__name">pingo</h2>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="friends__item">
+          <a href="chats.html">
+            <div class="user-card">
+              <div class="user-card__data item-center">
+                <img src="/images/user-04.jpg" alt=""/>
+                <div>
+                  <h2 class="user-card__name">Montgomery Burns</h2>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="friends__item">
+          <a href="chats.html">
+            <div class="user-card">
+              <div class="user-card__data item-center">
+                <img src="/images/user-05.jpg" alt=""/>
+                <div>
+                  <h2 class="user-card__name">Ned Flanders</h2>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="friends__item">
+          <a href="/chats.html">
+            <div class="user-card">
+              <div class="user-card__data item-center">
+                <img src="/images/user-06.jpg" alt=""/>
+                <div>
+                  <h2 class="user-card__name">Nibble Mouse</h2>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="friends__item">
+          <a href="/chats.html">
+            <div class="user-card">
+              <div class="user-card__data item-center">
+                <img src="/images/user-07.jpg" alt=""/>
+                <div>
+                  <h2 class="user-card__name">Thomas Cat</h2>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </main>
+  <nav class="appbar-bottom">
+    <a href="#">
+      <i class="icon-user is-active" data-feather="user"></i>
+    </a>
+    <a href="chats.html" class="position-relative">
+      <div class="badge">1</div>
+      <i class="icon-chat" data-feather="message-circle"></i>
+    </a>
+    <a href="find.html">
+      <i class="icon-search" data-feather="search"></i>
+    </a>
+    <a href="more.html">
+      <i class="icon-more" data-feather="more-horizontal"></i>
+    </a>
+  </nav>
+  <div class="splash">
+    <p>Hello!!!</p>
+  </div>
+  <div class="notice-viewport-small">
+    <img src="/images/viewport-small.jpg">
+    <p>Please increase <br> the browser size </p>
+  </div>
+  <div class="notice-viewport-big">
+      <div class="position-relative">
+        <img src="/images/viewport-big.jpg">
+        <p>please reduce <br> the browser size </p>
+      </div>
+  </div>
+  <script src="https://unpkg.com/feather-icons"></script>
+  <script>
+    feather.replace()
+  </script>
+</body>
+</html>

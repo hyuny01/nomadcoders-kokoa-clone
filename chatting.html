@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Chatting</title>
+</head>
+<body class="chatting">
+  <div class="fixed-top">
+    <div class="status-bar">
+      <time>07:30</time>
+      <div class="status-bar__icons">
+        <i class="icon-bar-chart" data-feather="bar-chart"></i>
+        <i class="icon-wifi" data-feather="wifi"></i>
+        <div class="charge">
+          <div class="charge__bar"></div>
+          <i class="icon-battery" data-feather="battery-charging"></i>
+        </div>
+      </div>
+    </div>
+    <header class="navigation-bar">
+      <div>
+        <a href="chats.html">
+          <i class="icon-chevron-left" data-feather="chevron-left"></i>
+        </a>
+      </div>
+      <div>
+        <h1 class="navigation__title">Group chat</h1>
+      </div>
+      <div>
+        <i class="icon-search" data-feather="search"></i>
+        <i class="icon-menu" data-feather="menu"></i>
+      </div>
+    </header>
+  </div>
+  <main class="box-common box-chatting">
+    <time class="chat__time" datetime="2022-02-28">February 28, 2022</time>
+    <div class="talk-card">
+      <img class="talk-card__avatar-img" src="/images/chatting-avatar.jpg" alt="">
+      <div class="talk-card__text">
+        <span class="talk-card__avatar-name">homer</span>
+        <div class="talk-card__bubble">
+          <p>hi</p>
+          <time datetime="21:27">21:27</time>
+        </div>
+      </div>
+    </div>
+    <div class="talk-card oneself">
+      <div class="talk-card__text">
+        <div class="talk-card__bubble">
+          <p>What's up?</p>
+          <time datetime="21:27">21:27</time>
+        </div>
+      </div>
+    </div>
+    <div class="talk-card oneself">
+      <div class="talk-card__text">
+        <div class="talk-card__bubble">
+          <p>😎</p>
+          <time datetime="21:30">21:30</time>
+        </div>
+      </div>
+    </div>
+    <form class="reply" action="" method="get">
+      <div class="reply__content">
+        <i class="icon-plus-sqare" data-feather="plus-square"></i>
+        <div class="reply__input">
+          <input class="reply__typing" type="text" placeholder="Enter it">
+          <i class="icon-smile" data-feather="smile"></i>
+          <button type="button">
+            <i class="icon-arrow-up-circle" data-feather="arrow-up-circle"></i>
+          </button>
+        </div>
+      </div>
+      <div class="reply__keyboard">
+        <img class="reply__keyboard-img" src="/images/keyboards-emoji.jpg">
+      </div>
+    </form>
+  </main>
+  <div class="notice-viewport-small">
+    <img src="/images/viewport-small.jpg">
+    <p>Please increase <br> the browser size </p>
+  </div>
+  <div class="notice-viewport-big">
+      <div class="position-relative">
+        <img src="/images/viewport-big.jpg">
+        <p>please reduce <br> the browser size </p>
+      </div>
+  </div>
+  <script src="https://unpkg.com/feather-icons"></script>
+  <script>
+    feather.replace()
+  </script>
+</body>
+</html>
