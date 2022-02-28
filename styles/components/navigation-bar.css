@@ -1,0 +1,37 @@
+.navigation-bar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px 0 8px;
+}
+
+.navigation-bar div{
+  width: 33%;
+}
+
+.navigation-bar a,
+.navigation__title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation-bar div:first-child{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.navigation-bar div:last-child{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navigation-bar .icon-search{
+  width: 22px;
+  height: 22px;
+  /* margin-top: 1px; */
+}
+
+.navigation-bar .icon-menu{
+  margin-left: 6px;
+}

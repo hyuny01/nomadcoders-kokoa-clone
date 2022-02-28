@@ -1,0 +1,28 @@
+/* font */
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import url("https://use.typekit.net/tex4zgy.css");
+
+/* reset & fondation */
+@import url(styles/reset.css);
+@import url(styles/fondation.css);
+
+/* components */
+@import url(styles/components/status-bar.css);
+@import url(styles/components/display-header.css);
+@import url(styles/components/appbar-bottom.css);
+@import url(styles/components/user-card.css);
+@import url(styles/components/badge.css);
+@import url(styles/components/btn-icon.css);
+@import url(styles/components/divide.css);
+@import url(styles/components/navigation-bar.css);
+@import url(styles/components/notice-viewport.css);
+
+/* screen */
+@import url(styles/screen/login.css);
+@import url(styles/screen/friends.css);
+@import url(styles/screen/chats.css);
+@import url(styles/screen/find.css);
+@import url(styles/screen/more.css);
+@import url(styles/screen/setting.css);
+@import url(styles/screen/chatting.css);

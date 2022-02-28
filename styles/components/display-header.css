@@ -1,0 +1,67 @@
+.display-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  margin-top: 10px;
+}
+
+.display-header__title{
+  font-size: 32px;
+  font-weight: var(--bold);
+}
+
+.display-header__icons{
+  display: flex;
+  align-items: center;
+}
+
+.display-header__icons svg{
+ margin-right: 12px;
+}
+
+.display-header__icons svg:last-child{
+  margin-right: 0;
+}
+
+.display-header__icons .icon-search{
+  margin-top: 1px;
+}
+
+.display-header__icons .icon-music{
+  width: 25px;
+  height: 25px;
+  stroke-width: 1.8;
+  margin-top: 1px;
+}
+
+.display-header__icons .icon-user-plus{
+  width: 25px;
+  height: 25px;
+  stroke-width: 1.8;
+  margin-right: 8px;
+}
+
+
+@keyframes spin{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(180deg);
+  }
+}
+
+.display-header__icons .icon-settings{
+  width: 23px;
+  height: 23px;
+}
+
+.display-header__icons .icon-settings:hover{
+  animation: spin 4s linear infinite;
+}
+
+.display-header__icons a{
+  display: flex;
+  align-items: center;
+}

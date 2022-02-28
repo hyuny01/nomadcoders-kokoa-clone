@@ -1,0 +1,120 @@
+.box-find{
+  margin-top: 108px;
+}
+
+.box-find .btn-icons{
+  padding: 0 8px;
+  margin-bottom: 40px;
+}
+
+.box-find .btn-icons__item{
+  margin-bottom: 0;
+}
+
+.recommended{
+  padding: 0 20px;
+  margin-bottom: 40px;
+}
+
+.recommended .divide__title{
+  margin-bottom: 12px;
+}
+
+.recommended .empty{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 140px;
+  border-radius: 8px;
+  background-color: var(--gray-bg-100);
+  text-align: center;
+  font-size: 12px;
+  color: var(--gray-text-300);
+}
+
+.open-chat .divide{
+  padding: 0 20px;
+}
+
+.open-chat__item{
+  padding: 20px;
+  transition: all 0.1s ease-in-out;
+}
+
+.open-chat__item:hover{
+  transform: translateY(4px);
+  background-color: var(--gray-bg-50); 
+}
+
+.open-chat__link{
+  display: flex;
+  justify-content:space-between;
+}
+
+.open-chat__info .title{
+  font-size: 14px;
+}
+
+.open-chat__info .text-long{
+  width: 188px;
+}
+
+.open-chat__captain{
+  display: flex;
+  margin-top: 16px;
+}
+
+.open-chat__captain img{
+  width: 28px;
+  height: 28px;
+  object-fit: cover;
+  display: block;
+  margin-right: 6px;
+}
+
+.open-chat__desc{
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+}
+
+.open-chat__desc .members{
+  color: var(--gray-text-300);
+  margin-bottom: -2px;
+}
+
+.open-chat__desc strong{
+  color: var(--color-pink);
+}
+
+.opne-chat__thumb{
+  display: block;
+  width: 108px;
+  height: 108px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.box-find .icon-heart{
+  transition: all 0.2s ease-in-out;
+}
+
+@keyframes heart{
+ 0%{
+    transform: scale(0.2);
+  }
+ 50%{
+    transform: scale(1.4);
+    stroke:none;
+    fill: var(--color-pink);
+  }
+  100%{
+    transform: scale(1);
+    stroke: none;
+    fill: var(--color-pink);
+  }
+}
+
+.box-find li:hover .icon-heart{
+  animation: heart 1s ease-in-out infinite;
+}

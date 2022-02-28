@@ -1,0 +1,33 @@
+.divide{
+  display: flex;
+  justify-content: space-between;
+}
+
+.divide__title{
+  font-size: 14px;
+  font-weight: var(--semi-bold);
+  text-transform: uppercase;
+}
+
+.divid__title--sm{
+  font-size: 12px;
+  color: var(--gray-text-400);
+}
+
+.divide__btn{
+ display: flex;
+ align-items: center;
+}
+
+.divide__btn span{
+  font-size: 10px;
+  color: var(--gray-text-300);
+}
+
+.divide__btn .icon-chevron-right{
+  width: 12px;
+  height: 12px;
+  stroke: var(--gray-text-300);
+  stroke-width: 2.5px;
+  margin-top: 1px;
+}

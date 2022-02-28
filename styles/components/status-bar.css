@@ -1,0 +1,55 @@
+.status-bar{
+  display: flex;
+  justify-content: space-between;
+  padding: 2px 8px 2px 20px;
+}
+
+.status-bar time{
+  font-size: 13px;
+  font-weight: var(--semi-bold);
+}
+
+.status-bar__icons{
+  display: flex;
+  align-items: center;
+}
+
+.status-bar__icons svg{
+  width: 18px;
+  height: 18px;
+  stroke-width: 2.2;
+  margin-right: 4px;
+}
+
+.status-bar__icons svg:last-child{
+  margin-right: 0;
+}
+
+.status-bar__icons .icon-bar-chart{
+ margin-right: 0;
+}
+
+.charge{
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+@keyframes fill{
+  from{
+    width: 0px;
+  }
+  to{
+    width: 15px;
+  }
+}
+
+.charge__bar{
+  width: 0px;
+  height: 11px;
+  background-color: #2fff35;
+  border-radius: 2px;
+  position: absolute;
+  mix-blend-mode: multiply;
+  animation: fill 2s ease-in-out infinite;
+}

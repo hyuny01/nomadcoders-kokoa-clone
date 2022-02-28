@@ -1,0 +1,72 @@
+.box-more{
+  margin-top: 108px;
+  padding: 0 20px;
+}
+
+.box-more .user-card{
+  margin-bottom: 40px;
+  align-items: center;
+}
+
+.box-more .user-card .icon-alert-circle{
+ width: 14px;
+ height: 14px;
+ margin-left: 4px;
+ stroke-width: 2.4px;
+ stroke: var(--color-pink);
+}
+
+@keyframes bell{
+  0%{
+    transform: rotate(15deg);
+  }
+  50%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(-15deg);
+  }
+}
+
+.box-more .user-card .icon-bell{
+  width: 28px;
+  height: 28px;
+  stroke-width: 1.6px;
+  transform-origin: top;
+  animation: bell 1s linear infinite alternate;
+}
+
+.box-more .user-card .notice-circle{
+  left: 4px;
+  z-index: var(--z-index-10);
+}
+
+.box-more article{
+  margin-bottom: 16px;
+}
+
+.box-more .divide__title{
+  margin-bottom: 20px;
+}
+
+.img-card__item{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.img-card__thumb{
+  display: block;
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  margin-right: 14px;
+}
+
+.img-card__info .title{
+  font-size: 14px;
+}
+
+.img-card__info .text-long{
+  width: 188px;
+}

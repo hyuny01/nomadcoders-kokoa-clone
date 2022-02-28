@@ -1,0 +1,21 @@
+.badge{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  padding: 5px 8px;
+  background-color: var(--color-pink);
+  font-size: 10px;
+  line-height: 10px;
+  font-weight: var(--semi-bold);
+  color: #fff;
+}
+
+.notice-circle{
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  background-color: var(--color-pink);
+  border-radius: 50%;
+  z-index: var(--z-index-10);
+}

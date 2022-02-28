@@ -1,0 +1,74 @@
+.appbar-bottom{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  background-color: var(--gray-bg-50);
+}
+
+.appbar-bottom a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  transition: all 1.5s ease-in-out;
+}
+
+.appbar-bottom svg{
+  transform: scale(1.2);
+  stroke-width: 1.6px;
+}
+
+.appbar-bottom .icon-user{
+  width: 26px;
+  height: 26px;
+}
+
+.appbar-bottom .icon-chat{
+  margin-top: 1px;
+}
+
+.appbar-bottom a:hover svg:not(.icon-more){
+  fill: var(--color-yellow);
+}
+
+.appbar-bottom a:hover .icon-more{
+  stroke: var(--color-yellow);
+}
+
+.appbar-bottom .is-active{
+  cursor:not-allowed;
+}
+
+.appbar-bottom .is-active:not(.icon-more){
+  fill: var(--color-yellow);
+  stroke-width: 1.6px;
+}
+
+.appbar-bottom .icon-more.is-active{
+  stroke: var(--color-yellow);
+  width: 28px;
+  height: 28px;
+}
+
+@keyframes spin-badge{
+  from{
+    transform: roteateY(0);
+  }
+  to{
+    transform: translateY(4px) rotateY(360deg);
+  }
+}
+
+.appbar-bottom .badge{
+  right: 0;
+  top: 7px;
+  position: absolute;
+  z-index: var(--z-index-10);
+  animation: spin-badge 1.2s ease-in-out infinite alternate;
+}
