@@ -47,7 +47,7 @@
   z-index: var(--z-index-100);
   width: 100%;
   height: 120vh;
-  background: url(/images/splash.jpg) no-repeat;
+  background: url(../../images/splash.jpg) no-repeat;
   background-size: cover;
   animation: show-splash 0.5s ease-out forwards;
 }
